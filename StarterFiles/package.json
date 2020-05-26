@@ -5,16 +5,18 @@
   "main": "index.js",
   "scripts": {
     "webpack": "webpack",
-    "watch": "webpack-dev-server"
+    "watch": "webpack-dev-server",
+    "postinstall": "webpack -p",
+    "start": "node server.js"
   },
   "author": "Zineeddine998",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^3.3.7",
     "chart.js": "^2.6.0",
+    "express": "^4.17.1",
     "jquery": "^3.2.1",
     "mapbox-gl": "^1.10.1",
-    "noty": "^3.2.0-beta",
     "toastr": "^2.1.2"
   },
   "devDependencies": {
