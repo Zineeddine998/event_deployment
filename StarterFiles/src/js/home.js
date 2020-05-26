@@ -3,7 +3,7 @@ import validateRegistrationForm from "./services/formValidation/validateRegistra
 import apiCall  from "./services/api/apiCall";
 import toastr from 'toastr';
 import '../../node_modules/toastr/toastr.less';
-//toastr.options.showEasing=swing;
+toastr.options.showEasing='swing';
 class Home {
 
     constructor() {
